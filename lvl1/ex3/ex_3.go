@@ -14,4 +14,5 @@ func Resolve() {
 
 	s := fmt.Sprintf("%v %v %v", x, y, z)
 	fmt.Println(s)
+	fmt.Println()
 }
