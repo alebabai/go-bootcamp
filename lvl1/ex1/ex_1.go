@@ -17,6 +17,6 @@ func Resolve() {
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
-	
+
 	fmt.Println()
 }
