@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Resolve is a function that provide solution of exercise ninja-level-1
+// Resolve is a function that provide solution of exercise 2 ninja-level-1
 func Resolve() {
 	fmt.Println("Exercise 1")
 
@@ -13,8 +13,10 @@ func Resolve() {
 	z := true
 
 	fmt.Println(x, y, z)
+
 	fmt.Println(x)
 	fmt.Println(y)
 	fmt.Println(z)
+	
 	fmt.Println()
 }
