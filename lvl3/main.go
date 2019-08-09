@@ -8,6 +8,7 @@ import (
 	"github.com/alebabai/go-bootcamp/lvl3/ex5"
 	"github.com/alebabai/go-bootcamp/lvl3/ex6"
 	"github.com/alebabai/go-bootcamp/lvl3/ex7"
+	"github.com/alebabai/go-bootcamp/lvl3/ex8"
 )
 
 func main() {
@@ -18,4 +19,5 @@ func main() {
 	ex5.Resolve()
 	ex6.Resolve()
 	ex7.Resolve()
+	ex8.Resolve()
 }
