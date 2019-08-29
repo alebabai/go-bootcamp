@@ -8,7 +8,7 @@ import (
 func Resolve() {
 	fmt.Println("Exercise 1")
 
-	arr := []int{1, 2, 3, 4, 13}
+	arr := [5]int{1, 2, 3, 4, 13}
 
 	for i, v := range arr {
 		fmt.Printf("Index: %d\tvalue: %v\n", i, v)

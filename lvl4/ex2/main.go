@@ -8,13 +8,13 @@ import (
 func Resolve() {
 	fmt.Println("Exercise 2")
 
-	arr := [5]int{1, 2, 3, 4, 13}
+	arr := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
 	for i, v := range arr {
 		fmt.Printf("Index: %d\tvalue: %v\n", i, v)
 	}
 
-	fmt.Printf("Array's type: %T", arr)
+	fmt.Printf("Slice's type: %T", arr)
 
 	fmt.Println()
 }
