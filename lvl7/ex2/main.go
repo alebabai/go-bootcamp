@@ -9,7 +9,7 @@ type person struct {
 }
 
 func changeMe(p *person) {
-	p.name = "Taller Derden"
+	p.name = "Tyler Durden"
 }
 
 // Resolve is a function that provide solution of exercise 2 ninja-level-7
