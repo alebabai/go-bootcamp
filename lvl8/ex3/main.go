@@ -1,8 +1,9 @@
-package ex1
+package ex3
 
 import (
 	"encoding/json"
 	"fmt"
+	"os"
 )
 
 type user struct {
@@ -10,9 +11,9 @@ type user struct {
 	Age  int    `json:"age"`
 }
 
-// Resolve is a function that provide solution of exercise 1 ninja-level-8
+// Resolve is a function that provide solution of exercise 3 ninja-level-8
 func Resolve() {
-	fmt.Println("Exercise 1")
+	fmt.Println("Exercise 3")
 
 	users := []user{
 		user{
@@ -20,16 +21,13 @@ func Resolve() {
 			Age:  32,
 		},
 		user{
-			Name: "The Storyteller",
+			Name: "The storyteller",
 			Age:  34,
 		},
 	}
 
-	json, err := json.Marshal(users)
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Println(string(json))
+	encoder := json.NewEncoder(os.Stdout)
+	encoder.Encode(users)
 
 	fmt.Println()
 }
